@@ -18,11 +18,8 @@ function App() {
 
 
     <>
-      <div id='up' className='container'>
-      fff
-        <div className="divider" />
-        <div className="divider" />
-        <div className="divider" />
+      <div id='up' className='container-fluid'>
+      
 
 
  
