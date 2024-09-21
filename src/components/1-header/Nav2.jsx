@@ -12,10 +12,9 @@ export default function Nav2() {
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
-          // style={{ backgroundColor: 'transparent' }}
+          style={{ border: 'none' }} // Remove border here
         >
-          <span className="navbar-toggler-icon" 
-          style={{ backgroundColor: 'transparent' }}>
+          <span className="navbar-toggler-icon" style={{ backgroundColor: 'transparent', border: 'none' }}>
             <i className="fas fa-bars" style={{ color: 'white' }}></i>
           </span>
         </button>
@@ -60,9 +59,9 @@ export default function Nav2() {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-                style={{ backgroundColor: 'transparent', color: 'inherit' }}
+                style={{ backgroundColor: 'transparent', color: 'inherit', border: 'none' }} // Remove border here
               />
-              <button className="btn" type="submit" style={{ color: 'inherit', backgroundColor: 'transparent' }}>Search</button>
+              <button className="btn" type="submit" style={{ color: 'inherit', backgroundColor: 'transparent', border: 'none' }}>Search</button>
             </form>
           </div>
         </div>
