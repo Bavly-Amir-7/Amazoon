@@ -24,7 +24,8 @@
 #glow-ingress-block {
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    line-height: 15px;
+
 }
 
 .nav-line-1 {

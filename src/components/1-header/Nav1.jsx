@@ -7,13 +7,13 @@ export default function Nav1() {
     <div className="nav1">
       <nav className="navbar navbar-expand-lg">
         <div className="leftPart d-flex">
-          <a className="navbar-brand" href="#" style={{ color: 'inherit' , paddingLeft:'10px', paddingTop:'10px' }}>
+          <a className="navbar-brand" href="#" style={{ color: 'inherit', paddingLeft: '10px', paddingTop: '10px' }}>
             <img className='siteLogo' src={logo} alt="logo" />
-            <span style={{fontSize: '14px', color: '#ccc'}}>.eg</span>
+            <span style={{ fontSize: '14px', color: '#ccc' }}>.eg</span>
           </a>
 
           <div className="country d-flex" style={{ alignItems: "center", marginLeft: '20px' }}>
-            <i className="fa-solid fa-location-dot" style={{ fontSize: '16px', color: '#fff', marginRight: '5px' }}></i>
+            <i className="fa-solid fa-location-dot" style={{ fontSize: '16px', color: '#fff', marginRight: '5px', marginTop:'16px' }}></i>
             <div id="glow-ingress-block">
               <span className="nav-line-1">Deliver to</span>
               <span className="nav-line-2">Egypt</span>
@@ -32,7 +32,8 @@ export default function Nav1() {
             <span className="nav-line-2">Account & Lists</span>
           </div>
           <div className="nav-item">
-            <span className="nav-line-2">Orders</span>
+            <span className="nav-line-2">
+              Orders</span>
           </div>
           <div className="nav-item cart">
             <i className="fa fa-shopping-cart"></i>
