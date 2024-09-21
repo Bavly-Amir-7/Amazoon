@@ -32,8 +32,7 @@ export default function Nav1() {
             <span className="nav-line-2">Account & Lists</span>
           </div>
           <div className="nav-item">
-            <span className="nav-line-1">Returns</span>
-            <span className="nav-line-2">& Orders</span>
+            <span className="nav-line-2">Orders</span>
           </div>
           <div className="nav-item cart">
             <i className="fa fa-shopping-cart"></i>

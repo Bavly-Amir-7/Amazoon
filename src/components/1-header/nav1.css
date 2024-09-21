@@ -13,7 +13,7 @@
 
 .siteLogo {
     width: 80px;
-    padding-right: 5px;
+    margin-right: 0 !important;
 }
 
 .leftPart {
