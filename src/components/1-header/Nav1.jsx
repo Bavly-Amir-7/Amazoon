@@ -22,7 +22,7 @@ export default function Nav1() {
         </div>
 
         <div className="searchPart">
-          <input type="text" className="searchInput" placeholder="Search Amazon" />
+          <input type="text" className="searchInput" placeholder="Search Amazon.eg" />
           <button className="searchButton"><i className="fa fa-search"></i></button>
         </div>
 
