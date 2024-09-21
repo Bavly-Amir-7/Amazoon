@@ -42,19 +42,19 @@
 .searchPart {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 900px;
 }
 
 .searchInput {
     width: 100%;
-    height: 30px;
+    height: 38px;
     padding: 5px;
     border: none;
     border-radius: 3px 0 0 3px;
 }
 
 .searchButton {
-    height: 30px;
+    height: 38px;
     background-color: #febd69;
     border: none;
     padding: 5px 10px;
