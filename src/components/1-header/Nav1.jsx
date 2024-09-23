@@ -1,6 +1,7 @@
 import React from 'react';
 import './nav1.css';
 import logo from "../../images/toppng.com-amazon-logo-transparent-768x293.png";
+import ResponsiveNav from './ResponsiveNav';
 
 export default function Nav1() {
   return (
@@ -79,7 +80,7 @@ export default function Nav1() {
         </div>
       </nav>
 
+<ResponsiveNav />
     </div>
-
   );
 }
