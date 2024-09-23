@@ -80,7 +80,6 @@ export default function Nav1() {
         </div>
       </nav>
 
-<ResponsiveNav />
     </div>
   );
 }
