@@ -2,6 +2,7 @@ import React from 'react';
 import './nav1.css';
 import logo from "../../images/toppng.com-amazon-logo-transparent-768x293.png";
 
+
 export default function Nav1() {
   return (
     <div className="nav1">

@@ -1,15 +1,66 @@
-.navbar-toggler {
-    border: none !important; 
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #232f3e;
+    color: white;
+  }
+  
+  .navbar2-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar2-toggler {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar2-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .sale-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .sale-banner img {
+    height: 30px;
+    width: 400px;
+  }
+  
+  .sale-text {
+    color: #ff9900;
+  }
+  
+  .deals-extended {
+    border-left: 1px solid #37475a;
+    padding-left: 0.5rem;
+  }
+
+  @media (max-width: 600px) {
+    .navbar2 {
+        display: none;
+    }
 }
 
-.navbar-toggler-icon {
-    border: none !important; 
-}
 
-.form-control {
-    border: none !important; 
-}
-
-.btn {
-    border: none !important; 
-}
