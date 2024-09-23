@@ -73,6 +73,10 @@
     border-radius: 0 3px 3px 0;
 }
 
+.nav1 .fa-search{
+    color: black;
+}
+
 .rightPart {
     display: flex;
     align-items: end;
@@ -119,4 +123,21 @@
 
 .ml-2 {
     margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+}
+@media (min-width: 769px) {
+    .desktop-nav {
+        display: flex;
+    }
+    .mobile-nav {
+        display: none;
+    }
 }
