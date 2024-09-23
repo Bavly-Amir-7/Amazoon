@@ -54,7 +54,19 @@ export default function Nav1() {
 
           <div className="nav-item">
             <span className="nav-line-1">Hello, Sign in</span>
-            <span className="nav-line-2">Account & Lists</span>
+            <div>
+
+            <span className="nav-line-2">Account & Lists </span>
+            <span style={{
+              visibility: 'visible',
+              marginLeft: '2px',
+              fontSize: '8px',
+              marginTop: '10px',
+            }}>
+                <i className="fa-solid fa-angle-down"></i>
+              </span>
+                </div>
+
           </div>
           <div className="nav-item">
             <span className="nav-line-2">Orders</span>
@@ -66,8 +78,8 @@ export default function Nav1() {
           </div>
         </div>
       </nav>
-      
+
     </div>
-    
+
   );
 }
