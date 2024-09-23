@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './nav1.css';
 import logo from "../../images/toppng.com-amazon-logo-transparent-768x293.png";
@@ -8,9 +7,10 @@ export default function Nav1() {
     <div className="nav1">
       <nav className="navbar navbar-expand-lg">
         <div className="leftPart d-flex align-items-center">
-          <a className="navbar-brand" href="#" style={{ color: 'inherit', paddingLeft: '10px', paddingTop: '10px' }}>
+          <a className="navbar-brand d-flex align-items-center" href="#" style={{ color: 'inherit', paddingLeft: '10px', paddingTop: '10px' }}>
             <img className='siteLogo' src={logo} alt="logo" />
             <span style={{ fontSize: '14px', color: '#ccc' }}>.eg</span>
+            <i className="fa-solid fa-angle-down" style={{ fontSize: '12px', color: '#ccc', marginLeft: '5px' }}></i>
           </a>
 
           <div className="country d-flex align-items-center" style={{ marginLeft: '20px' }}>
@@ -26,7 +26,7 @@ export default function Nav1() {
           <select className="searchSelect">
             <option>All</option>
           </select>
-          <input type="text" className="searchInput" value="amazon" />
+          <input type="text" className="searchInput" placeholder='Search Amazon.eg' />
           <button className="searchButton">
             <i className="fa fa-search"></i>
           </button>
@@ -41,7 +41,14 @@ export default function Nav1() {
                 style={{ width: '20px', height: '15px', marginRight: '5px' }}
               />
               <div style={{ color: 'white' }}>EN</div>
-              <span className="nav-icon nav-arrow" style={{ visibility: 'visible', marginLeft: '5px' }}></span>
+              <span style={{
+                visibility: 'visible',
+                marginLeft: '2px',
+                fontSize: '8px',
+                marginTop: '10px',
+              }}>
+                <i className="fa-solid fa-angle-down"></i>
+              </span>
             </div>
           </a>
 
