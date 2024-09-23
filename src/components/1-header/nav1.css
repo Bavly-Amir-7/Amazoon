@@ -125,19 +125,8 @@
     margin-left: 0.5rem;
 }
 
-@media (max-width: 768px) {
-    .desktop-nav {
-        display: none;
-    }
-    .mobile-nav {
-        display: flex;
-    }
-}
-@media (min-width: 769px) {
-    .desktop-nav {
-        display: flex;
-    }
-    .mobile-nav {
-        display: none;
-    }
-}
+@media (max-width: 600px) {
+   .nav1{
+    display: none;
+   }
+ }

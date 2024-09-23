@@ -1,0 +1,9 @@
+.responsive-nav {
+    display: none;
+}
+
+@media (max-width: 600px) {
+   .responsive-nav{
+    display: block;
+   }
+}
