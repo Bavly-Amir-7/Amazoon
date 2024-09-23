@@ -66,7 +66,6 @@ export default function Nav1() {
           </div>
         </div>
       </nav>
-
       
     </div>
     
