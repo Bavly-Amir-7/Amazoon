@@ -4,7 +4,7 @@
   
 
   
-  @media only screen and (max-width: 821px) {
+  @media only screen and (max-width: 1024px) {
     .responsive-nav {
       display: block !important;
       flex-direction: column;
