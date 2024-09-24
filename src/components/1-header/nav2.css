@@ -56,8 +56,18 @@
     padding-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1280px) {
+   .navbar2-left{
+    width: 100%;
+    gap: 0.5rem;
+   }
+
+
+
+}
+
+@media (max-width: 821px) {
     .navbar2 {
-        display: none;
+        display: none !important;
     }
 }

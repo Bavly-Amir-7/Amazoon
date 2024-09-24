@@ -125,8 +125,21 @@
     margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-   .nav1{
-    display: none;
-   }
+
+
+@media (max-width: 1280px) {
+    .searchPart {
+        width: 650px;
+    }
+
+
+
+}
+
+
+@media (max-width: 821px) {
+    .nav1{
+     display: none !important;
+    }
+    
  }
