@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.loginPageTitle {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f2f1;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    align-items: center;
+    height: 80px;
+}
+
+.amazon-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF9900;
+}
+
+.loginForm {
+    width: 50%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E47911;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order-summary {
+    border: 1px solid #ddd;
+    background-color: #f3f3f3;
+    width: 30%;
+    height: 55%;
+    translate: 710px -44px;
+    position: fixed;
+}
+
+.order-total {
+    color: #B12704;
+    font-size: 18px;
+    font-weight: bold;
+}
