@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+
+
 .loginPageTitle {
     display: flex;
     justify-content: space-around;
@@ -11,6 +14,10 @@ body {
     margin-right: 0.5%;
     align-items: center;
     height: 80px;
+}
+
+.loginContainer{
+    max-width: 1320px !important;
 }
 
 .amazon-logo {

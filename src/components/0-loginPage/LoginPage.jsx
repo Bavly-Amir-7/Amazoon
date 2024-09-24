@@ -16,7 +16,7 @@ export default function LoginPage() {
                     <span className="checkout-title">Checkout <span className="text-blue-600">(6 items)</span></span>
                 </div>
             </div>
-            <div className="container mx-auto p-4">
+            <div className="container loginContainer mx-auto p-4">
                 <div className="mb-4">
                     <span className="step-title">1 Enter a new shipping address</span>
                 </div>
