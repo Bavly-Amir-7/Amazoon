@@ -1,6 +1,6 @@
 
 import React from 'react';
-import "./loginPage.css"
+import "./payment.css"
 import logo from "../../images/toppng.com-amazon-logo-transparent-768x293.png";
 import logo2 from "../../images/vecteezy_amazon-logo-png-amazon-icon-transparent-png_19766240.png";
 
@@ -10,7 +10,7 @@ export default function LoginPage() {
         <>
             <div className="loginPageTitle">
                 <div className="siteLogo">
-                    <img src={logo2} alt="amazon black logo" />
+                <img src={logo2} alt="amazon black logo" width={80} />
                 </div>
                 <div className="">
                     <span className="checkout-title">Checkout <span className="text-blue-600">(6 items)</span></span>

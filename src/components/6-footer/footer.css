@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+/*Todo ***************** Global Style *******************/
+a {
+    text-decoration: none;
+    line-height: 115%;
+}
+
+a,
+.last {
+    color: #DDD;
+}
+
+li {
+    list-style-type: none;
+}
+
+.amazonLink span,
+.last a {
+    padding: 0 .6em;
+}
+
+.amazonLink,
+.footerTable,
+.last {
+    font-size: 12px;
+}
+
+.footerColumn a:hover,
+.footerTable a:hover {
+    text-decoration: underline;
+}
+
+.footerTable,
+.last {
+    background-color: #131A22;
+}
+
+/*Todo ***************** ************ *******************/
+
+footer {
+    background-color: #232F3E;
+    min-width: 1000px;
+    position: relative;
+    margin: 30px 0 0 0;
+}
+
+/*! ***************** 1st Row *******************/
+.footerBackToTop {
+    margin-bottom: 40px;
+    background-color: #37475A;
+    text-align: center;
+}
+
+.footerBackToTop:hover {
+    background-color: #485769;
+}
+
+.footerBackToTop {
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+
+/*! ***************** 2nd Row *******************/
+.footerColumn {
+    display: table;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.footerColumn a {
+    font-size: 14px;
+}
+
+.footerRow {
+    display: table-row;
+}
+
+.footerCol {
+    display: table-cell;
+    padding: 0 10px;
+    line-height: 120%;
+    color: white;
+}
+
+.footerColHead {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 6px 0 14px 0;
+}
+
+.footerCol ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footerCol ul li {
+    margin: 0 0 10px;
+}
+
+.footerSpace {
+    display: table-cell;
+    padding: 0 10px;
+    width: 10%;
+}
+
+/*! ***************** 3rd Row *******************/
+.amazonLink {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazonLink span {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.language-selector {
+    display: inline-block;
+}
+
+.language-button,
+.country-button {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: .5PX solid #dddddd5c;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.country-flag {
+    background-image: url(../images/egypt.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 .6em;
+}
+
+/*! ***************** 4th Row *******************/
+.footerTable {
+    padding: 30px 0;
+    margin: 30px 0 0;
+}
+
+.footerTable table {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footerTable td {
+    padding: 0 .75em;
+}
+
+.footerTable span {
+    color: #999;
+}
+
+/*! ***************** Last Row *******************/
+.last {
+    padding: 10px 0 30px;
+    line-height: 18px;
+}
+
+.last ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0 18px;
+}
+
+.last span {
+    display: block;
+    text-align: center;
+    padding-left: 30px;
+}

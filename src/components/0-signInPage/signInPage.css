@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
+
+body {
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    /* background-color: #f8f8f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px 0px !important;
+    margin: 8px 0px;
+}
+
+.signIn a:hover,
+.sign a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+
+.signIn button,
+.newAmazon button {
+    width: 100%;
+    height: 29px;
+    padding: 1px 6px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+}
+
+img {
+    height: 31px;
+    width: 103px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signIn {
+    background-color: #fff;
+    padding: 20px 26px;
+    border-radius: 8px;
+    border: 1px #ddd solid;
+    width: 350px;
+}
+
+.signIn h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px !important;
+    line-height: 1.2;
+}
+
+.signIn label {
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+.signIn input[type="text"] {
+    height: 31px;
+    width: -webkit-fill-available;
+    margin: 10px 0;
+    padding: 0 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+}
+
+.signIn input:focus {
+    background-color: #F7FEFF;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #c8f3fa, 0 1px 2px rgba(15, 17, 17, .15) inset;
+}
+
+.signIn button[type="submit"] {
+    margin-top: 10px;
+    background: #FFD814;
+    border: 1px solid #FCD200;
+}
+
+.signIn button:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+
+.agreement {
+    margin-top: 15px;
+}
+
+.agreement a,
+.help,
+.sign a {
+    color: #0066c0;
+}
+
+.help {
+    margin: 20px 0 0 0;
+}
+
+.signIn span {
+    color: #767676;
+}
+
+.newAmazon {
+    width: 350px;
+}
+
+.lineBreak {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+}
+
+.lineBreak h4 {
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px;
+}
+
+.lineBreak:after {
+    content: "";
+    width: 100%;
+    display: block;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+}
+
+.newAmazon button[type="button"] {
+    width: 100%;
+    margin-bottom: 14px;
+    background: #FFF;
+    border: 1px solid #D5D9D9;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+}
+
+.newAmazon button:hover {
+    background-color: #F7FAFA;
+    border-color: #D5D9D9;
+}
+
+.sign {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+}
+
+.sign ul {
+    font-size: 11px;
+    margin-top: 3%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 3%;
+}
+
+.sign a {
+    text-decoration: none;
+}
+
+.sign p {
+    color: #555;
+    font-size: 10px;
+}
