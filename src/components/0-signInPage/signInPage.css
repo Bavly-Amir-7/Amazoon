@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
 
+body {
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    /* background-color: #f8f8f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px 0px !important;
+    margin: 8px 0px;
+}
 
 .signIn a:hover,
 .sign a:hover {

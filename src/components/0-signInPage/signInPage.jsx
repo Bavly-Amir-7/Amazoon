@@ -5,7 +5,7 @@ import amazoonlogo from "../../images/Amazon.svg"
 export default function SignInPage() {
   return (
     <>
-      <img src={amazoonlogo} alt="Amazon Logo" />
+      <img className='amazoonLogoInSign' src={amazoonlogo} alt="Amazon Logo" />
 
       <div className="signIn">
         <h1>Sign in</h1>
